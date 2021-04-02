@@ -171,6 +171,7 @@ const NestedMenuItem = React.forwardRef<
         {rightIcon}
       </MenuItem>
       <Menu
+        {...MenuProps}
         // Set pointer events to 'none' to prevent the invisible Popover div
         // from capturing events for clicks and hovers
         style={{pointerEvents: 'none'}}
